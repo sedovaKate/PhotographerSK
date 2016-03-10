@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Concerts</title>
+    <link rel="stylesheet" type="text/css" href="Styles.css">
+
+</head>
+<body>
+<div class="backgroundConcerts"></div>
+<nav class="link"><a href="FirstPage.html"><div class="h3Concert"> <h3>Photographer Sedova Ekaterina</h3></div></a></nav>
+<div id="button"><a href="#" id="slide1_prev">prev</a>|<a href="#" id="slide1_next">next</a>
+</div>
+    <ul id="slide1">
+    <li><img src="img/photo/concerts/1.jpg" alt="1"></li>
+    <li><img src="img/photo/concerts/2.jpg" alt="2"></li>
+    <li><img src="img/photo/concerts/3.jpg" alt="3"></li>
+    <li><img src="img/photo/concerts/4.jpg" alt="4"></li>
+    </ul>
+
+<script type="text/javascript" src="js/jquery-1.11.3.min.js"></script>
+<script type="text/javascript" src="js/jquery.mousewheel.js"></script>
+<script type="text/javascript" src="js/jquery.ulslide.js"></script>
+<script type="text/javascript">
+    $(function() {
+        $('#slide1').ulslide({
+            statusbar: true,
+            width: 1300,
+            height: 1000,
+            bnext: '#slide1_next',
+            bprev: '#slide1_prev',
+            axis: 'x',
+            mousewheel: true,
+            duration: 1000,
+            autoslide: 3000
+        });
+    });
+</script>
+</body>
+</html>

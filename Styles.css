@@ -1,0 +1,560 @@
+body {
+    background-color: #000000 ;
+}
+.background {
+    background: #000000 url("./img/background1.jpg") no-repeat;
+    width: 100%;
+    height: 80%;
+    background-position: top center;
+    background-size: cover;
+    position: fixed;
+    margin: 70px 0 0 0;
+    z-index: -3;
+}
+.background-About {
+    background: #000000 url("./img/photo/home/3-3.jpg") no-repeat ;
+    width: 100%;
+    height: 85%;
+    background-position: top center;
+    background-size: cover;
+    position: fixed;
+    margin: 70px 0 30px 0;
+    z-index: -3;
+    opacity: 0.5;
+
+}
+.background-contacts {
+    background: #000000 url("./img/2-2.jpg") no-repeat;
+    width: 100%;
+    height: 90%;
+    background-position: top center;
+    background-size: 100%;
+    position: fixed;
+    margin: 0 0 0 0;
+    z-index: -3;
+    opacity: 0.8;
+}
+.background-price {
+    background: #000000 url("./img/город.jpg")no-repeat;
+    width: 100%;
+    height: 80%;
+    background-position: center;
+    background-size: 100%;
+    position: fixed;
+    margin: 70px 0 0 0;
+    z-index: -3;
+    opacity: 0.9;
+}
+.background-nature{
+    background: #000000 url("./img/photo/nature/nat18.JPG") no-repeat ;
+    width: 100%;
+    height: 94%;
+    background-position: top center;
+    background-size: cover;
+    position: fixed;
+    margin: 70px 0 0 0;
+    z-index: -3;
+    opacity: 0.3;
+}
+.background-portraits{
+    background: #000000 url("./img/photo/people/2.jpg") no-repeat ;
+    width: 80%;
+    height: 80%;
+    background-size: cover ;
+    position: fixed;
+    margin: 0 90px 0 100px ;
+    z-index: -10;
+    opacity: 0.8;
+}
+.background-portraits-block{
+    background: #000000 url("./img/photo/people/2-3.png") no-repeat;
+    width: 100%;
+    height: 70px;
+    background-size: cover;
+    position: fixed;
+    margin: 0 0 400px 30px;
+    z-index: -3;
+    opacity: 0.4;
+}
+.background-reportage{
+    background: #000000 ;
+}
+.background-urban{
+    background: #000000 url("./img/photo/urban/1.jpg") no-repeat;
+    width: 100%;
+    height: 90%;
+    background-position: top center;
+    position: absolute;
+    margin: 50px 0 0 0;
+    z-index: -4;
+    opacity: 0.5;
+}
+.background-2013{
+    background: #000000 url("./img/photo/people/2-3.jpg") no-repeat ;
+    width: 80%;
+    height: 80%;
+    background-size: cover ;
+    margin: 70px 90px 0 100px ;
+    position: fixed;
+    z-index: -20;
+    opacity: 0.8;
+}
+.backgroundConcerts{
+    background: #000000 url("./img/photo/nature/IMG_1439.jpg") no-repeat ;
+    width: 100%;
+    height: 90%;
+    background-size: cover;
+    background-position: top center;
+    position: fixed;
+    margin: 50px 0 0 0;
+    z-index: -30;
+    opacity: 0.6;
+}
+.link a{
+    text-decoration: none;
+}
+.text {
+    position: relative;
+    text-transform: uppercase;
+    vertical-align: middle;
+    z-index: 1;
+    color: #000000;
+    text-align: center;
+    padding: 200px;
+    text-shadow: 0 0 8px rgba(0, 0, 0, 0.46);
+    font: normal 35px Tunga;
+    margin: 200px 0 200px 0;
+}
+A:link {
+    text-decoration: none;
+}
+@media (max-width: 800px) {
+    .navigation li{
+        display: block;
+        width: 100%;
+        height: 100%;
+    }
+}
+.navigation li {
+    display: inline;
+    background-color: #000000;
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+    position: static;
+    z-index: -1;
+    font: normal 20px Tunga;
+}
+.navigation li a {
+    display: inline-block;
+    width: 300px;
+    height: 50px;
+    text-decoration: none;
+    color: #ffffff;
+    margin: 0;
+    padding: 10px 0 0 150px;
+    list-style-image: none;
+    list-style-type: disc;
+    letter-spacing: 8px;
+    font: normal 20px Tunga;
+}
+.navigation li a:hover{
+    color: #26ddff;
+}
+.navigation li ul{
+    display: none;
+}
+.navigation li ul li{
+    display: block;
+    margin: 0 0 0 -10px;
+    width: 200px;
+    height: 55px;
+
+}
+.navigation li ul li a{
+    display: block;
+    width: 50px;
+    height: 35px;
+    margin: 0 0 0 -150px;
+    text-align: left;
+    font: normal 20px Tunga;
+}
+.navigation li:hover > ul{
+    position: absolute;
+    left: 23%;
+    display: block;
+    z-index: 5;
+    background: #000000;
+    margin: 0 10px 0 170px;
+}
+
+/*.navigation li ul li:hover{
+    left: 30%;
+    width: 200px;
+    background: #222;
+}*/
+@media (max-width: 900px) {
+    .navigation li:hover > ul{
+        display: block;
+        width: 90%;
+        position: static;
+        margin: 0;
+    }
+    .navigation li ul li{
+        width: 40%;
+    }
+    .navigation li ul li a{
+        width: 40%;
+    }
+}
+.price li{
+    display: block;
+    width: 300px;
+    height: 30px;
+    left: 20%;
+    top: 10%;
+    list-style: none;
+    font: normal 25px Segoe UI;
+    padding: 1px;
+    margin: 5px 10px 20px 10px;
+    /*text-shadow: 1px 1px 1px #ffffff;*/
+}
+.box1-price{
+    display: block;
+    width: 500px;
+    height: 100%;
+    position: static;
+    margin: 30px 10px 10px 220px;
+    z-index: -2;
+    float: left;
+}
+.box2-price{
+    display: block;
+    right: 10%;
+    width: 300px;
+    height: 100%;
+    position: static;
+    color: #000000;
+    padding: 1px;
+    margin: 10px 400px 60px 10px;
+    z-index: -1;
+    float: right;
+}
+.price2{
+    margin: 20px 10px 30px 0;
+}
+.list1-price li {
+    list-style: none;
+    font: normal 25px Segoe UI;
+    color: #000000;
+    padding: 1px;
+    margin: 5px 10px 1px 0;
+    /*text-shadow: 1px 1px 1px #ffffff;*/
+}
+.list1-price li ul li{
+    list-style: none;
+    font: normal 20px Segoe UI;
+    color: #000000;
+    padding: 1px;
+    margin: 5px 10px 1px 0;
+}
+.h1-price{
+    font: normal 20px Segoe UI;
+    color: #000000;
+    padding: 10px;
+    text-align: center;
+    /*text-shadow: 2px 1px 3px black ;*/
+    opacity: 0.8;
+
+}
+.h3-price{
+    margin: 10px 5px 10px 0;
+    padding: 0;
+    font: normal 25px Segoe UI;
+    color: #d9d9d9;
+    text-align: right;
+    opacity: 0.6;
+}
+.h3-price:hover{
+    color: #ffba91;
+    opacity: 0.5;
+}
+.p-price{
+    font: normal 16px Segoe UI;
+    color: #4b4b4b;
+    margin: 0 0 0 30px;
+}
+.h3-urban{
+    margin: 10px 25px 10px 0;
+    position: relative;
+    z-index: 23;
+    text-align: right;
+    padding: 0;
+    font: normal 25px Segoe UI;
+    color: #d9d9d9;
+    opacity: 0.5;
+}
+.h3-urban:hover{
+    color: #0086b3;
+    opacity: 0.5;
+}
+.h3-about{
+    margin: 10px 5px 10px 10px;
+    font: normal 25px Segoe UI;
+    padding: 0;
+    color: #d9d9d9;
+    text-align: right;
+    opacity: 0.7;
+}
+.h3-about:hover{
+    color:#26ddff;
+    opacity: 0.5;
+}
+#block1-about {
+    text-indent: 30px;
+    text-align: justify;
+    width: 400px;
+    float: left;
+    margin: 40px 5px 0 170px;
+    font: normal 20px tunga;
+    color: #ffffff;
+   /* text-shadow: 1px 1px 1px #ffffff;*/
+}
+.navigation2-contacts ul li{
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+    margin: 800px 10px 0 5px;
+    list-style: none;
+    float: left;
+}
+.navigation2-contacts ul {
+    margin: 0 0 0 10px;
+    padding: 0;
+}
+
+a.iconVk{
+    display: block;
+    width: 300px;
+    height: 100px;
+    background: url("./img/icons/Без%20имени-1.png")0 0 no-repeat;
+}
+a.iconVk:hover{
+    background-position: -50px 0;
+}
+
+a.iconTM{
+    display: block;
+    width: 300px;
+    height: 100px;
+    background: url("./img/icons/Без%20имени-1.png") 0 0 no-repeat;
+}
+a.iconTM:hover{
+    background-position: -40px 0;
+}
+a.iconFC{
+    display: block;
+    width: 300px;
+    height: 100px;
+    background: url("./img/icons/Без%20имени-1.png") 0 0 no-repeat;
+}
+a.iconFC:hover{
+    background-position: -40px 0;
+}
+a.iconIN{
+    display: block;
+    width: 300px;
+    height: 100px;
+    background: url("./img/icons/Без%20имени-1.png") 0 0 no-repeat;
+}
+a.iconIN:hover{
+    background-position: 80px 0;
+}
+
+a.iconTW{
+    display: block;
+    width: 300px;
+    height: 100px;
+    background: url("./img/icons/Без%20имени-1.png") 0 0 no-repeat;
+}
+a.iconTW:hover{
+    background-position: -50px 0;
+}
+
+
+
+
+.navigation2-contacts {  /* ссылки на соц сети*/
+    float: left;
+}
+.navigation2-contacts .iconVk{
+    cursor: pointer;
+    background: url("/img/icons/vk.png");
+}
+
+.h3-contacts{
+    display: block;
+    width: 450px;
+    height: 90%;
+    padding: 0;
+
+    font: normal 25px Segoe UI;
+    color: #d9d9d9;
+
+    margin: 0 10px 0 1450px;
+    opacity: 0.5;
+}
+.h3-contacts:hover{
+    color: #a8d9ff;
+    opacity: 0.7;
+}
+.p-contacts{
+    font: normal 30px tunga;
+    color: #ffffff;
+    margin: 110px 0 0 15px;
+    z-index: -1;
+    opacity: 0.9;
+}
+.h3-nature{
+    margin: 10px 5px 10px 10px;
+    font: normal 25px Segoe UI;
+    padding: 0;
+    color: #d9d9d9;
+    text-align: right;
+    opacity: 0.5;
+}
+.h3-nature:hover {
+    color: #26ddff;
+    opacity: 0.5;
+}
+.photo44{
+
+}
+.h3-portraits{
+    margin: 0 5px 5px 10px;
+    font: normal 20px Segoe UI;
+    padding: 0;
+    color: #ffffff;
+    text-align: center;
+    letter-spacing: 5px;
+}
+.h3Concert{
+    margin: 10px 5px 10px 0;
+    text-align: right;
+    padding: 0;
+    font: normal 25px Segoe UI;
+    color: #d9d9d9;
+    opacity: 0.5;
+}
+.h3Concert:hover{
+    color: #0086b3;
+    opacity: 0.5;
+}
+.photographer-portraits{
+    text-align: center;
+    margin: 670px 0 0 0;
+    position: relative;
+    padding: 0;
+    font: normal 25px Segoe UI;
+    color: #ffffff;
+    opacity: 0.3;
+
+}
+.photographer-portraits:hover{
+    color:#26ddff;
+    opacity: 0.5;
+}
+.menu-portraits li{
+    display: inline-block;
+    margin: 20px 0 0 0;
+
+
+}
+.menu-portraits li a{
+    display: inline-block;
+    color: #ffffff;
+    font: normal 25px Segoe UI;
+    padding-left: 140px;
+    padding-right: 50px;
+
+    text-align: center;
+    letter-spacing: 10px;
+    z-index: 3;
+}
+.menu-portraits li a:hover{
+    color: #26ddff;
+}
+.photo-portraits1 li{
+    display: none;
+    margin: 45px 0 0 70px;
+}
+.photo-portraits2 li{
+    display: none;
+    margin: 20px 10px 0 70px;
+}
+.libraryUrban .item{
+
+    margin: 10px 10px 10px 10px;
+    padding: 10px;
+    position: relative;
+    display: inline-block;
+    z-index: 6;
+    }
+.libraryUrban a{
+    display: inline-block;
+    width: 200px;
+    }
+.libraryUrban img {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    padding: 10px;
+    margin: 10px 0 0 50px;
+    z-index: 14;
+}
+.photographer-2013{
+    text-align: center;
+    margin: 760px 0 0 0;
+    position: relative;
+    padding: 0;
+    font: normal 25px Segoe UI;
+    color: #ffffff;
+    opacity: 0.3;
+}
+.photographer-2013:hover{
+    color: #0096c4;
+    opacity: 0.5;
+}
+.link2 a{
+    text-align: center;
+    font: normal 25px Segoe UI;
+    color: #0086b3;
+    opacity: 0.6;
+    position: relative;
+
+}
+.linkonPortrait{
+    text-align: center;
+    opacity: 0.6;
+    font: normal 20px Segoe UI;
+    color: #FFFFFF;
+
+}
+.linkonPortrait:hover{
+    color: #0096c4;
+    opacity: 0.9;
+}
+#slide1{
+    margin: 10px 0 0 30px;
+    position: absolute;
+    z-index: 25;
+
+}
+#button, #slide1_prev, #slide1_next{
+    padding: 3px;
+    text-align: center;
+    color: white;
+    font: normal 25px tunga;
+    margin: 0 3px 0 3px;
+    opacity: 0.7;
+}
